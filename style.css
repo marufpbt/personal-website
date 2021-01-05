@@ -177,6 +177,51 @@ ul li a{
     right: 100px;
     top: 110px;
 }
+/*services*/
+.services-area h3 {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.services-area .item {
+	padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.services-area .circle {
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    border: 1px solid #f21e4e;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.services-area .circle h2 {
+    line-height: 80px;
+    color: #f21e4e;
+    font-weight: 700;
+}
+.text-dark {
+    color: #343a40!important;
+}
+.services-area .item:hover {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+	background-color: #ffffff;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+    box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+}
+.mt-25{
+	margin-top: 25px!important;
+}
+
 /*footer*/
 .footer-area{
 	margin-bottom: 80px;
