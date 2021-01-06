@@ -255,3 +255,13 @@ ul li a{
 	width: 906px;
     height: 225px;
 }
+/*extra css*/
+.download-wrapper{
+	position: relative;
+}
+.download-wrapper i {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: #fff;
+}
