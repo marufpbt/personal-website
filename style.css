@@ -164,8 +164,8 @@ ul li a{
 }
 .text-wrapper {
     position: absolute;
-    left: 100px;
-    top: 100px;
+    left: 20%;
+    top: 35%;
 }
 .text-wrapper h2{
 	font-size: 64px;
@@ -174,8 +174,8 @@ ul li a{
 }
 .btn-wrapper a{
 	position: absolute;
-    right: 100px;
-    top: 110px;
+    right: 20%;
+    top: 35%;
 }
 /*services*/
 .services-area h3 {
@@ -251,3 +251,7 @@ ul li a{
 	margin-left: 15px;
 }
 
+.banner-ctrl{
+	width: 906px;
+    height: 225px;
+}
